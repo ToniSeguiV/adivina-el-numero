@@ -1,0 +1,43 @@
+body { 
+    display:flex;
+    flex-direction: column;
+    font-family: Arial; 
+    text-align: center; 
+    padding: 50px; 
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(235deg, #d5d5d5, #969595);
+    height: 837px;
+}
+input, button { 
+    padding: 10px; 
+    margin-top: 10px;
+    width: 200px;
+    font-size: xx-large; 
+}
+#mensaje { 
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px; 
+    font-weight: bold; 
+    font-size: xx-large;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    transition: 0.3s background-color ease;
+    transition: 0.3s color ease;
+}
+button:hover{
+    background-color: #878787;
+    color:rgb(38, 38, 38);
+}
+body>h1{
+    font-size: 100px;
+    color: black;
+}
+body>p{
+    font-size: 45px;
+    color: black;
+}
