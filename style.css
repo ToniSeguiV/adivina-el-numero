@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     background:linear-gradient(235deg, #d5d5d5, #969595);
-    height: 900px;
+    height: 920px;
 }
 input, button { 
     padding: 10px; 
